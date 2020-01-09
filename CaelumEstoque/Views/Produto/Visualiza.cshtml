@@ -1,0 +1,13 @@
+﻿
+<div class="container ml-5">
+    <ul class="list-group ">
+        <li>Id: @ViewBag.Produto.Id</li>
+        <li>Nome: @ViewBag.Produto.Nome</li>
+        <li>Quantidade: @ViewBag.Produto.Quantidade</li>
+        <li>Preço: @ViewBag.Produto.Preco</li>
+        <li>Descricao: @ViewBag.Produto.Descricao</li>        
+        <li>Categoria: @ViewBag.Produto.Categoria.Nome</li>        
+        @Html.RouteLink("Voltar para a lista", "ListaProdutos")
+    </ul>
+</div>
+
